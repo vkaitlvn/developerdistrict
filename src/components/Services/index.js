@@ -19,11 +19,11 @@ const Services = () => {
         <TopLine>SERVICES</TopLine>
       <ServicesH1>WHAT CAN DD DO FOR YOU?</ServicesH1>
       <ServicesWrapper>
-        <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>CONNECT</ServicesH2>
+      <ServicesCard>
+          <ServicesIcon src={Icon3} />
+          <ServicesH2>SOCIALIZE</ServicesH2>
           <ServicesP>
-            An unlimited networking experience: Connect with developers globally.
+            Both professional and fun: socialize with other gamers and developers.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
@@ -34,12 +34,15 @@ const Services = () => {
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
-          <ServicesH2>SOCIALIZE</ServicesH2>
+          <ServicesIcon src={Icon1} />
+          <ServicesH2>CONNECT</ServicesH2>
           <ServicesP>
-            Both professional and fun: socialize with other gamers and developers.
+            An unlimited networking experience: Connect with developers globally.
           </ServicesP>
+        
         </ServicesCard>
+        
+    
       </ServicesWrapper>
     </ServicesContainer>
   );

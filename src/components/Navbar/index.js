@@ -73,7 +73,7 @@ const Navbar = ({ toggle }) => {
               
               <NavItem>
                 <NavLinks
-                  to='signup'
+                  to='chat'
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -85,7 +85,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='signup'
+                  to='world'
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -97,7 +97,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='signup'
+                  to='profiles'
                   smooth={true}
                   duration={500}
                   spy={true}

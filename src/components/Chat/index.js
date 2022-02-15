@@ -6,9 +6,10 @@ import {
     Heading, 
     Subtitle, 
 
-} from './InfoElements'
+} from './ChatElements'
 
-import pic from "../../images/controller2ppl.svg";
+import pic from "../../images/chat.svg";
+import { Button } from '../ButtonElements';
 
 
 
@@ -17,19 +18,20 @@ const InfoSection = ({
 }) => {
     return (
     
-        <div style={{ background: '#000000'}} className="text-white row py-5" id='about'>
+        <div style={{ background: '#000000'}} className="text-white row py-5" id='chat'>
             <div className="col-12 px-0">
                 <div className="container-lg">
                     <div className="row px-4 justify-content-center align-items-center">
                         
                         <div className="col-lg-6 mb-4 mb-md-0">
 
-                            <TopLine>WELCOME</TopLine>
-                            <Heading >DD'S MISSION</Heading>
+                            <TopLine>Socialize</TopLine>
+                            <Heading >DD CHAT</Heading>
                             <Subtitle>
-                                Welcome to DeveloperDistrict, your center for all things gaming. DeveloperDistrict aims to provide game developers and enthusiasts a one stop destination for all things necessary for the ultimate gaming experience.
+                                Socialize with other gamers and developers. DD excels in creating an atmosphere that can be both professional and fun. <br/> Chat, share ideas, and brainstorm with others in DDChat: a safe and enjoyable chat board experience.
 
                             </Subtitle>
+                            <Button>DDCHAT</Button>
 
                         </div>
                         

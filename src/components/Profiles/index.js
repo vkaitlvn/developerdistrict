@@ -6,9 +6,10 @@ import {
     Heading, 
     Subtitle, 
 
-} from './InfoElements'
+} from './ProfilesElements'
 
-import pic from "../../images/controller2ppl.svg";
+import pic from "../../images/profiles.svg";
+import { Button } from '../ButtonElements';
 
 
 
@@ -17,29 +18,34 @@ const InfoSection = ({
 }) => {
     return (
     
-        <div style={{ background: '#000000'}} className="text-white row py-5" id='about'>
+        <div style={{ background: '#000000'}} className="text-white row py-5" id='profiles'>
             <div className="col-12 px-0">
                 <div className="container-lg">
                     <div className="row px-4 justify-content-center align-items-center">
                         
+                        
+                        
                         <div className="col-lg-6 mb-4 mb-md-0">
 
-                            <TopLine>WELCOME</TopLine>
-                            <Heading >DD'S MISSION</Heading>
+                            <TopLine>Connect</TopLine>
+                            <Heading >DD Profiles</Heading>
                             <Subtitle>
-                                Welcome to DeveloperDistrict, your center for all things gaming. DeveloperDistrict aims to provide game developers and enthusiasts a one stop destination for all things necessary for the ultimate gaming experience.
+                                Create a profile and connect with other developers with DDProfiles. <br/> Accessible to professionals looking to collaborate and creat or for students looking to intern and learn.
 
                             </Subtitle>
+                            <Button>
+                                DDPROFILES
+                            </Button>
 
                         </div>
                         
-
                         <div className="col-lg-6 d-flex flex-column px-0 ps-lg-5 mt-5 mt-lg-0">
                             <img 
                             src={pic} 
                             alt={alt} 
                             className="h-100 w-100" style={{objectFit:"cover"}}/>
                         </div>
+                        
 
                         
                     </div>

@@ -13,7 +13,7 @@ export const Button = styled(Link)`
     cursor: pointer;
     display: flex;
     text-decoration: none;
-    margin-bottom: 6px;
+    margin-bottom: 30px;
 
     justify-content: center;
     align-items: center;
@@ -21,7 +21,8 @@ export const Button = styled(Link)`
 
     &:hover{
         transition: all 0.2s ease-in-out;
-        background: #fff;
+        background: #8b4fc8;
+        color: #fff;
     }
 
     @media screen and (max-width: 280px){

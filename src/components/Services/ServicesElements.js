@@ -7,6 +7,7 @@ export const ServicesContainer = styled.div`
   justify-content: center;
   align-items: center;
   background: #010606;
+  margin-top: 50px;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -65,15 +66,19 @@ export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 64px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
   @media screen and (max-width: 480px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `;
 
 export const ServicesH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
+  color: #000000;
 `;
 
 export const ServicesP = styled.p`

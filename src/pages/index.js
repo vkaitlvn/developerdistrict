@@ -5,6 +5,10 @@ import InfoSection from '../components/InfoSection';
 import Navbar from '../components/Navbar'
 import Services from '../components/Services';
 import Sidebar from '../components/Sidebar';
+import Chat from '../components/Chat'
+import World from '../components/World'
+import Profiles from '../components/Profiles'
+
 
 
 
@@ -23,6 +27,9 @@ const Home = () => {
             <HeroSection/>
             <InfoSection />
             <Services />
+            <Chat />
+            <World />
+            <Profiles />
 
             <Footer/>
             
