@@ -14,6 +14,7 @@ export const Button = styled(Link)`
     display: flex;
     text-decoration: none;
     margin-bottom: 30px;
+    margin-top: 30px;
 
     justify-content: center;
     align-items: center;

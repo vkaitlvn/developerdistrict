@@ -18,24 +18,26 @@ const InfoSection = ({
 }) => {
     return (
     
-        <div style={{ background: '#000000'}} className="text-white row py-5" id='profiles'>
+        <div style={{ background: '#000000'}} className="text-white row py-5 mt-5" id='profiles'>
             <div className="col-12 px-0">
                 <div className="container-lg">
                     <div className="row px-4 justify-content-center align-items-center">
                         
                         
                         
-                        <div className="col-lg-6 mb-4 mb-md-0">
+                        <div className="col-lg-6 mb-4 mt-5 mb-md-0">
 
                             <TopLine>Connect</TopLine>
                             <Heading >DD Profiles</Heading>
                             <Subtitle>
                                 Create a profile and connect with other developers with DDProfiles. <br/> Accessible to professionals looking to collaborate and creat or for students looking to intern and learn.
 
-                            </Subtitle>
-                            <Button>
+                                <Button>
                                 DDPROFILES
-                            </Button>
+                                </Button>
+
+                            </Subtitle>
+                            
 
                         </div>
                         

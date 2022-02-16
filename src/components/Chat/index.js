@@ -29,9 +29,10 @@ const InfoSection = ({
                             <Heading >DD CHAT</Heading>
                             <Subtitle>
                                 Socialize with other gamers and developers. DD excels in creating an atmosphere that can be both professional and fun. <br/> Chat, share ideas, and brainstorm with others in DDChat: a safe and enjoyable chat board experience.
-
+                                
+                                <Button>DDCHAT</Button>
                             </Subtitle>
-                            <Button>DDCHAT</Button>
+                            
 
                         </div>
                         

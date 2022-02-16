@@ -61,7 +61,8 @@ export const TopLine = styled.div`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
-  margin-top: 50px;
+  margin-top: 100px;
+
 `;
 
 export const Heading = styled.h1`
@@ -78,7 +79,7 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
   max-width: 440px;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   font-size: 18px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};

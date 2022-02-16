@@ -15,6 +15,7 @@ export const TopLine = styled.p`
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 90px;
 `;
 
 export const Heading = styled.h1`
@@ -44,7 +45,7 @@ export const Subtitle = styled.p`
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 95px;
 
     
     @media screen and (max-width: 414px){

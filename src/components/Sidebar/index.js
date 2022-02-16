@@ -29,17 +29,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             About
           </SidebarLink>
-          <SidebarLink
-            to='discover'
-            onClick={toggle}
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={-80}
-          >
-            Discover
-          </SidebarLink>
+          
           <SidebarLink
             to='services'
             onClick={toggle}
@@ -52,7 +42,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             Services
           </SidebarLink>
           <SidebarLink
-            to='signup'
+            to='chat'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -60,11 +50,33 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Sign Up
+            DDchat
+          </SidebarLink>
+          <SidebarLink
+            to='world'
+            onClick={toggle}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact='true'
+            offset={-80}
+          >
+              WORLDSIM
+          </SidebarLink>
+          <SidebarLink
+            to='profiles'
+            onClick={toggle}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact='true'
+            offset={-80}
+          >
+              DDprofiles
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/signin'>Sign </SidebarRoute>
+          <SidebarRoute to='/signin'>Sign In </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
