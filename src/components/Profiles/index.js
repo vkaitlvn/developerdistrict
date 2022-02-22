@@ -32,7 +32,7 @@ const InfoSection = ({
                             <Subtitle>
                                 Create a profile and connect with other developers with DDProfiles. <br/> Accessible to professionals looking to collaborate and creat or for students looking to intern and learn.
 
-                                <Button>
+                                <Button to="/profiles">
                                 DDPROFILES
                                 </Button>
 

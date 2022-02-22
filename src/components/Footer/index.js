@@ -2,15 +2,11 @@ import React from 'react'
 import { animateScroll as scroll } from 'react-scroll';
 
 import { 
-    FaDiscord, 
     FaTwitter,
-    FaTshirt
+    
 } from 'react-icons/fa';
 
-import { 
-    GiSailboat,
-    GiScrollQuill
-} from 'react-icons/gi';
+
 
 
 

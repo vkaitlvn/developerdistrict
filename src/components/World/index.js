@@ -36,7 +36,7 @@ const InfoSection = ({
                             <Heading> WORLDSIM</Heading>
                             <Subtitle> Meet, chat, and play with others virtually in Worldsim: the metaverse for gamers. 
 
-                            <Button>WORLDSIM</Button>
+                            <Button to="/worldsim">WORLDSIM</Button>
 
                             </Subtitle>
                             

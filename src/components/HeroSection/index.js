@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button } from '../ButtonElements';
+// import { Button } from '../ButtonElements';
 
 import Video from '../../video/hero.mp4';
 import {
@@ -10,8 +10,7 @@ import {
   HeroH1,
   HeroP,
   HeroBtnWrapper,
-  ArrowForward,
-  ArrowRight
+  
 } from './HeroElements';
 
 function HeroSection() {

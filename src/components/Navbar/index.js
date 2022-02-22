@@ -14,6 +14,7 @@ import {
   NavBtnLink
 } from './NavbarElements';
 
+
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
@@ -103,10 +104,12 @@ const Navbar = ({ toggle }) => {
                   spy={true}
                   exact='true'
                   offset={-80}
+                  
                 >
                   DDProfiles
                 </NavLinks>
               </NavItem>
+              
             </NavMenu>
             <NavBtn>
               <NavBtnLink to='/signin'>Sign In</NavBtnLink>
