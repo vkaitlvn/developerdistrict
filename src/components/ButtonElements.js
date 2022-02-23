@@ -3,11 +3,11 @@ import {Link} from 'react-router-dom';
 
 export const Button = styled(Link)`
     border-radius: 90px;
-    background: ${({primary}) => (primary ? '#008ddf' : '#14232b')};
+    background: #14232b;
     white-space: nowrap;
-    padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
-    color: ${({dark}) => (dark ? '#010606' : '#fff')};
-    font-size: ${({fontBig}) => (fontBig ? '25px' : '22px')};
+    padding: 12px 30px;
+    color: #fff;
+    font-size: 22px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -18,6 +18,7 @@ export const Button = styled(Link)`
 
     justify-content: center;
     align-items: center;
+    text-align: center;
     transition: all 0.2s ease-in-out;
 
     &:hover{

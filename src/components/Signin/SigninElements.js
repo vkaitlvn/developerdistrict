@@ -116,11 +116,22 @@ export const Form = styled.form`
 `;
 
 export const FormH1 = styled.h1`
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   text-align: center;
+  margin-top: -10px;
+`;
+
+export const FormH2 = styled.h2`
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+  font-style: italic;
 `;
 
 export const FormLabel = styled.label`
@@ -136,7 +147,7 @@ export const FormInput = styled.input`
 `;
 
 export const FormButton = styled.button`
-  background:  #01bf71;
+  background:  #8b4fc8;
   padding: 16px 0;
   border: none;
   border-radius: 4px;
@@ -147,7 +158,7 @@ export const FormButton = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #8b4fc8;
+    background: #01bf71;
     color: #fff;
   }
 `;

@@ -10,14 +10,18 @@ import {
   SideBtnWrap
 } from './SidebarElements';
 
+import { Button } from '../ButtonElements';
+
 const Sidebar = ({ isOpen, toggle }) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
+
       <SidebarWrapper>
         <SidebarMenu>
+
           <SidebarLink
             to='about'
             onClick={toggle}
@@ -74,10 +78,18 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
               DDprofiles
           </SidebarLink>
+
+          
+
         </SidebarMenu>
+
+
+        
+
         <SideBtnWrap>
-          <SidebarRoute to='/signin'>Sign In </SidebarRoute>
+          <Button to='/signin'>Sign In </Button>
         </SideBtnWrap>
+
       </SidebarWrapper>
     </SidebarContainer>
   );

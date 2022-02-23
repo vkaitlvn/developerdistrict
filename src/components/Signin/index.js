@@ -13,9 +13,12 @@ import {
   VideoBg,
   MiniCont,
   Spacer,
+  FormH2
 } from './SigninElements';
 
 import Video from '../../video/hero.mp4';
+// import { Button } from '../ButtonElements2';
+
 
 
 
@@ -41,18 +44,25 @@ const SignIn = () => {
           <FormContent>
             <Form action='#'>
               <FormH1>Sign in to DD</FormH1>
-              <FormLabel htmlFor='for'>Email</FormLabel>
+              {/* <FormLabel htmlFor='for'>Email</FormLabel>
               <FormInput type='email' required />
               <FormLabel htmlFor='for'>Password</FormLabel>
               <FormInput type='password' required />
-              <FormButton type='submit'>Continue</FormButton>
+              <FormButton type='submit'>Continue</FormButton> */}
+
               {/* <Text>Forgot password</Text> */}
-              <FormH1>Sign in using Google</FormH1>
+
+              {/* <Button to="/Signup">Sign Up</Button> */}
+
+              <FormH2>Google Log In</FormH2>
+
             
               <MiniCont>
                 <Login/>
                 <Spacer> </Spacer>
                 <Logout/>
+                <Spacer> </Spacer>
+
               </MiniCont>
             </Form>
             

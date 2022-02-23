@@ -4,7 +4,7 @@ import {
      
     TopLine, 
     Heading, 
-    Subtitle, 
+    Subtitle
 
 } from './ProfilesElements'
 
