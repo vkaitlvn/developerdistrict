@@ -3,7 +3,7 @@ import './App.css';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages';
-import DDchat from './pages/DDchat';
+import DDchat from './DDChat/DDchat';
 import worldsim from './pages/worldsim';
 import profiles from './pages/profiles';
 import signin from './pages/signin';

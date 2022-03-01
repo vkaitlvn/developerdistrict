@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
+import {ChatEngine} from 'react-chat-engine';
+import './DDchat.css';
 
 import Navbar from '../components/Navbar';
-import Sidebar from '../components/Sidebar';
-import ChatSection from '../components/ChatSection';
+
 import Footer from '../components/Footer';
 
 
@@ -15,9 +16,23 @@ const Home = () => {
 
     return (
         <div className="container-fluid">
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-            <Navbar toggle={toggle} />
-            <ChatSection />
+
+
+
+            <ChatEngine 
+
+            height="100vh"
+            // makes chat full heigh of page
+            projectID="207ead68-55ff-49dc-83eb-e67f7fa95dbc"
+            //string u get once u make chat app
+            userName="DDdeveloper"
+            userSecret="000001"
+            //password
+
+        />
+
+
+
 
             <Footer/>
             
