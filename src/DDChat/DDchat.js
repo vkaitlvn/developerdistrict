@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import {ChatEngine} from 'react-chat-engine';
 import './DDchat.css';
 
-import Navbar from '../components/Navbar';
 
 import Footer from '../components/Footer';
 
@@ -10,9 +9,7 @@ import Footer from '../components/Footer';
 const Home = () => {
     const[isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => {
-        setIsOpen(!isOpen);
-    };
+    
 
     return (
         <div className="container-fluid">
