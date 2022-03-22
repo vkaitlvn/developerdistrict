@@ -32,9 +32,10 @@ const InfoSection = ({
                                 Socialize with other gamers and developers. DD excels in creating an atmosphere that can be both professional and fun. <br/> Chat, share ideas, and brainstorm with others in DDChat: a safe and enjoyable chat board experience.
                                 
                                 {/* <Button to="/DDchat">DDCHAT</Button> */}
-                                <Button Link to ={{ pathname: "https://warm-halva-96c8f7.netlify.app"}} target="_blank" aria-label="merch">
+                                <Button Link to ={{ pathname: "https://warm-halva-96c8f7.netlify.app"}} target="_blank" aria-label="DDChat">
                                     DDChat
                                 </Button>
+
                             </Subtitle>
                             
 
