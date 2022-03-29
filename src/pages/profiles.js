@@ -1,9 +1,45 @@
-import React from 'react'
+import React, {useState} from 'react';
+import Footer from '../components/Footer';
 
-const profiles = () => {
-  return (
-    <div>This is where DDprofiles will be hosted</div>
-  )
+import Navbar2 from '../components/ProfilesNavbar'
+// new navbar for profiles only
+
+import Services from '../components/Services';
+import Sidebar from '../components/Sidebar';
+import ChatSection from '../components/ChatSection'
+import World from '../components/World'
+
+
+
+
+
+const Home = () => {
+    const[isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => {
+        setIsOpen(!isOpen);
+    };
+
+    return (
+        <div className="container-fluid">
+            <Sidebar isOpen={isOpen} toggle={toggle} />
+            <Navbar2 toggle={toggle} />
+            
+            <Services />
+            <World />
+            <ChatSection />
+            
+            
+
+            <Footer/>
+            
+            
+
+    
+
+        </div>
+
+    );
 }
 
-export default profiles
+export default Home;

@@ -1,11 +1,18 @@
 import React from 'react'
 import { animateScroll as scroll } from 'react-scroll';
 
-import { 
-    FaTwitter,
+// import { 
+//     FaTwitter,
     
-} from 'react-icons/fa';
+// } from 'react-icons/fa';
 
+import {
+    BiWorld
+} from 'react-icons/bi';
+
+import {
+    BsChatDots
+} from 'react-icons/bs';
 
 
 
@@ -44,9 +51,18 @@ const Footer = () => {
 
 
                         <SocialIcons>
-                            <SocialIconLink href="//www.twitter.com/" target="_blank" aria-label="Twitter">
+                            {/* <SocialIconLink href="//www.twitter.com/" target="_blank" aria-label="Twitter">
                                 <FaTwitter />
+                            </SocialIconLink> */}
+
+                            <SocialIconLink href="//www.twitter.com/" target="_blank" aria-label="Twitter">
+                                <BiWorld />
                             </SocialIconLink>
+
+                            <SocialIconLink href="//www.twitter.com/" target="_blank" aria-label="Twitter">
+                                <BsChatDots />
+                            </SocialIconLink>
+
                         </SocialIcons>
                         
                     </SocialMediaWrap>
