@@ -55,11 +55,11 @@ const Footer = () => {
                                 <FaTwitter />
                             </SocialIconLink> */}
 
-                            <SocialIconLink href="//www.twitter.com/" target="_blank" aria-label="Twitter">
+                            <SocialIconLink href="//www.twitter.com/" target="_blank" aria-label="World">
                                 <BiWorld />
                             </SocialIconLink>
 
-                            <SocialIconLink href="//www.twitter.com/" target="_blank" aria-label="Twitter">
+                            <SocialIconLink to="/DDchat" target="_blank" aria-label="Chat">
                                 <BsChatDots />
                             </SocialIconLink>
 

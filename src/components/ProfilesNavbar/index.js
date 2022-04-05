@@ -6,12 +6,11 @@ import {
   MobileIcon,
   Nav,
   NavbarContainer,
-  NavItem,
-  NavLinks,
   NavLogo,
   NavMenu,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
+  NavBtnLink2
 } from './NavbarElements';
 
 
@@ -48,71 +47,17 @@ const Navbar = ({ toggle }) => {
               <FaBars />
             </MobileIcon>
 
+            
             <NavMenu>
-              <NavItem>
-                <NavLinks
-                  to='MYpage'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  MYpage
-                </NavLinks>
-              </NavItem>
-             
-              <NavItem>
-                <NavLinks
-                  to='Discover'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  Discover
-                </NavLinks>
-              </NavItem>
+
+              <NavBtnLink2 to='/profiles'>MYpage</NavBtnLink2>
+
+              <NavBtnLink2 to='/News'>News</NavBtnLink2>
               
-              <NavItem>
-                <NavLinks
-                  to='News'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  News
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
-                  to='world'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  WorldSim
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
-                  to='chat'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                // Link to ={{ pathname: "https://warm-halva-96c8f7.netlify.app"}} target="_blank" aria-label="DDChat"
-                  
-                >
-                  DDChat
-                </NavLinks>
-              </NavItem>
+              <NavBtnLink2 to='/worldsim'>WorldSim</NavBtnLink2>
+
+              <NavBtnLink2 to='/DDchat'>DDChat</NavBtnLink2>
+
               
             </NavMenu>
 
