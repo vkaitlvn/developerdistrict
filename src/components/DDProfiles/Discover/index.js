@@ -19,7 +19,7 @@ import Video from '../../../video/discover.mp4';
 
 import Icon1 from '../../../images/connect.svg';
 import Icon2 from '../../../images/experience.svg';
-import Icon3 from '../../../images/socialize.svg';
+import Icon3 from '../../../images/githubicon.svg';
 
 
 
@@ -44,23 +44,23 @@ const Discover = () => {
                   <ServicesIcon src={Icon3} />
                   <ServicesH2>GITHUB</ServicesH2>
                   <ServicesP>
-                    Both professional and fun: socialize with other gamers and developers.
+                    A platform where developers can share and save their codes.
                   </ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>
                   <ServicesIcon src={Icon2} />
-                  <ServicesH2>EXPERIENCE</ServicesH2>
+                  <ServicesH2>CONSTRUCT</ServicesH2>
                   <ServicesP>
-                    Experience what new gaming technologies can do for gamers and developers.
+                    A game developing website that offers free tutorials and free trials.
                   </ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>
                   <ServicesIcon src={Icon1} />
-                  <ServicesH2>CONNECT</ServicesH2>
+                  <ServicesH2>UNITY</ServicesH2>
                   <ServicesP>
-                    An unlimited networking experience: Connect with developers globally.
+                    A game development platform with tutorials and free assets.
                   </ServicesP>
                 </ServicesCard>
               
