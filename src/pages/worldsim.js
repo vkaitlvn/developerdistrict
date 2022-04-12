@@ -1,9 +1,40 @@
-import React from 'react'
+import React, {useState} from 'react';
+import Footer from '../components/Footer';
 
-const worldsim = () => {
-  return (
-    <div> This is where worldsim will be hosted</div>
-  )
+import Navbar3 from '../components/WorldSim/Navbar3'
+// new navbar for profiles only
+
+import Sidebar from '../components/Sidebar';
+
+
+
+
+
+const Home = () => {
+    const[isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => {
+        setIsOpen(!isOpen);
+    };
+
+    return (
+        <div className="container-fluid">
+            <Sidebar isOpen={isOpen} toggle={toggle} />
+            <Navbar3 toggle={toggle} />
+            
+            
+            
+            
+
+            <Footer/>
+            
+            
+
+    
+
+        </div>
+
+    );
 }
 
-export default worldsim
+export default Home;

@@ -7,8 +7,8 @@ import DDchat from './DDChat/DDchat';
 import worldsim from './pages/worldsim';
 import profiles from './pages/profiles';
 import signin from './pages/signin';
-import News from './components/News';
-
+import Discover from './pages/Discover';
+import mypage from './pages/mypage';
 // ReactDOM.render(
 //   <MyComponent/>
 //   document.getElementById("root")
@@ -25,7 +25,8 @@ function App() {
         <Route path="/worldsim" component={worldsim} exact />
         <Route path="/profiles" component={profiles} exact />
         <Route path="/signin" component={signin} exact />
-        <Route path="/News" component={News} exact />
+        <Route path="/Discover" component={Discover} exact />
+        <Route path="/mypage" component={mypage} exact />
 
 
 
