@@ -45,7 +45,7 @@ export const Subtitle = styled.p`
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 95px;
+    margin-bottom: 135px;
 
     
     @media screen and (max-width: 414px){

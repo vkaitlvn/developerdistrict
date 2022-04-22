@@ -52,7 +52,6 @@ export const ServicesCard = styled.div`
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
-    cursor: pointer;
   }
 `;
 
@@ -96,5 +95,6 @@ export const TopLine = styled.div`
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
+  margin-top: -90px;
 `;

@@ -8,7 +8,7 @@ import worldsim from './pages/worldsim';
 import profiles from './pages/profiles';
 import signin from './pages/signin';
 import Discover from './pages/Discover';
-import mypage from './pages/mypage';
+// import mypage from './pages/mypage';
 // ReactDOM.render(
 //   <MyComponent/>
 //   document.getElementById("root")
@@ -26,7 +26,7 @@ function App() {
         <Route path="/profiles" component={profiles} exact />
         <Route path="/signin" component={signin} exact />
         <Route path="/Discover" component={Discover} exact />
-        <Route path="/mypage" component={mypage} exact />
+        {/* <Route path="/mypage" component={mypage} exact /> */}
 
 
 

@@ -5,8 +5,9 @@ import Navbar2 from '../components/DDProfiles/ProfilesNavbar'
 // new navbar for profiles only
 
 import Sidebar from '../components/Sidebar';
+import Mypage from '../components/DDProfiles/Mypage';
+import Discover from '../components/DDProfiles/Discover';
 
-import MYpage from '../components/DDProfiles/profileslanding'
 
 
 
@@ -22,7 +23,8 @@ const Home = () => {
         <div className="container-fluid">
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar2 toggle={toggle} />
-            <MYpage/>
+            <Mypage/>
+            <Discover/>
             
             
             

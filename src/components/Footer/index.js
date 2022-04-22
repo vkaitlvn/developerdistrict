@@ -14,6 +14,10 @@ import {
     BsChatDots
 } from 'react-icons/bs';
 
+import {
+    CgProfile
+} from 'react-icons/cg';
+
 
 
 
@@ -59,8 +63,12 @@ const Footer = () => {
                                 <BiWorld />
                             </SocialIconLink>
 
-                            <SocialIconLink to="/DDchat" target="_blank" aria-label="Chat">
+                            <SocialIconLink to="/DDchat" href="https://warm-halva-96c8f7.netlify.app/" target="_blank" aria-label="Chat">
                                 <BsChatDots />
+                            </SocialIconLink>
+
+                            <SocialIconLink to="/DDchat" target="_blank" aria-label="Chat">
+                                <    CgProfile />
                             </SocialIconLink>
 
                         </SocialIcons>

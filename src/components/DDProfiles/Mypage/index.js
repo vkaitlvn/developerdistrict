@@ -10,9 +10,11 @@ import {
   TopLine,
   Heading,
   Subtitle,
-  Heading2
+  Heading2,
+  Heading3
   
 } from './MypageElements';
+
 
 import pic from "../../../images/profilepic.svg";
 import { Button } from '../../ButtonElements';
@@ -34,6 +36,8 @@ function HeroSection() {
                             <TopLine>MyPage</TopLine>
                             <Heading >NAME</Heading>
                             <Heading2 > Game Developer (Title)</Heading2>
+                            <Heading3 > Location </Heading3>
+
 
                             <Subtitle>
                                 About me
@@ -57,12 +61,11 @@ function HeroSection() {
                         
 
                         </div>
-                        
-                        
 
-    
 
-        </HeroContent>
+                        </HeroContent>
+
+                        
 
     </HeroContainer>
   );

@@ -17,8 +17,8 @@ import {
 
 import Video from '../../../video/discover.mp4';
 
-import Icon1 from '../../../images/connect.svg';
-import Icon2 from '../../../images/experience.svg';
+import Icon1 from '../../../images/unity-logo.png';
+import Icon2 from '../../../images/constructicon.png';
 import Icon3 from '../../../images/githubicon.svg';
 
 
@@ -35,8 +35,9 @@ const Discover = () => {
 
           {/* Resources section */}
         <ServicesContainer>
-        <TopLine>RESOURCES</TopLine>
-        <ServicesH1>DDeveloper Tools</ServicesH1>
+        <TopLine>RESOURCES USED</TopLine>
+        <br/>
+        {/* <ServicesH1>DDeveloper Tools</ServicesH1> */}
 
             <ServicesWrapper>
 

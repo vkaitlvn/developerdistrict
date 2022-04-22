@@ -51,9 +51,10 @@ const Navbar = ({ toggle }) => {
             
             <NavMenu>
 
-              <NavBtnLink2 to='/mypage'>MYpage</NavBtnLink2>
 
-              <NavBtnLink2 to='/Discover'>Discover</NavBtnLink2>
+              {/* <NavBtnLink2 to='/Discover'>Discover</NavBtnLink2> */}
+
+              <NavBtnLink2 to='/'>DD Home</NavBtnLink2>
               
               <NavBtnLink2 to='/worldsim'>WorldSim</NavBtnLink2>
 

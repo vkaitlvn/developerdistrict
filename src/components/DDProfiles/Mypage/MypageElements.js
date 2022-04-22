@@ -142,6 +142,19 @@ export const Heading2 = styled.h1`
   }
 `;
 
+export const Heading3 = styled.h1`
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #8b4fc8;
+  font-style: italic;
+
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
+  }
+`;
+
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 90px;
