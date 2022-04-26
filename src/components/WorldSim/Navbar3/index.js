@@ -56,7 +56,7 @@ const Navbar = ({ toggle }) => {
               
         
 
-              <NavBtnLink2 to='/DDchat'>DDChat</NavBtnLink2>
+              <NavBtnLink2 Link to ={{ pathname: "https://ddchat.netlify.app/"}} target="_blank" aria-label="DDChat"> DDChat</NavBtnLink2>
 
               
             </NavMenu>

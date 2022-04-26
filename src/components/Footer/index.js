@@ -55,19 +55,17 @@ const Footer = () => {
 
 
                         <SocialIcons>
-                            {/* <SocialIconLink href="//www.twitter.com/" target="_blank" aria-label="Twitter">
-                                <FaTwitter />
-                            </SocialIconLink> */}
+                          
 
                             <SocialIconLink href="//www.twitter.com/" target="_blank" aria-label="World">
                                 <BiWorld />
                             </SocialIconLink>
 
-                            <SocialIconLink to="/DDchat" href="https://warm-halva-96c8f7.netlify.app/" target="_blank" aria-label="Chat">
+                            <SocialIconLink to="/DDchat" href="https://ddchat.netlify.app" target="_blank" aria-label="DDChat">
                                 <BsChatDots />
                             </SocialIconLink>
 
-                            <SocialIconLink to="/DDchat" target="_blank" aria-label="Chat">
+                            <SocialIconLink to="/profiles" target="_blank" aria-label="Chat">
                                 <    CgProfile />
                             </SocialIconLink>
 
