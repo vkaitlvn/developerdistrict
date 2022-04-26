@@ -4,9 +4,8 @@ import Footer from '../components/Footer';
 import Navbar3 from '../components/WorldSim/Navbar3'
 // new navbar for profiles only
 
-import Sidebar from '../components/Sidebar';
-
-
+import Worldbanner from '../components/Worldbanner';
+import Sidebar2 from '../components/Sidebar2';
 
 
 
@@ -19,8 +18,9 @@ const Home = () => {
 
     return (
         <div className="container-fluid">
-            <Sidebar isOpen={isOpen} toggle={toggle} />
+            <Sidebar2 isOpen={isOpen} toggle={toggle} />
             <Navbar3 toggle={toggle} />
+            <Worldbanner/>
             
             
             

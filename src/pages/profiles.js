@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import Navbar2 from '../components/DDProfiles/ProfilesNavbar'
 // new navbar for profiles only
 
-import Sidebar from '../components/Sidebar';
+import Sidebar2 from '../components/Sidebar2';
 import Mypage from '../components/DDProfiles/Mypage';
 import Discover from '../components/DDProfiles/Discover';
 
@@ -21,7 +21,7 @@ const Home = () => {
 
     return (
         <div className="container-fluid">
-            <Sidebar isOpen={isOpen} toggle={toggle} />
+            <Sidebar2 isOpen={isOpen} toggle={toggle} />
             <Navbar2 toggle={toggle} />
             <Mypage/>
             <Discover/>

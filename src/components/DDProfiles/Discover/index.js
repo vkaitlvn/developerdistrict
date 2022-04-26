@@ -1,87 +1,111 @@
 import React from 'react';
-import {
-  HeroContainer,
-  HeroBg,
-  VideoBg,
-  HeroContent,
-  ServicesContainer,
-  TopLine,
-  ServicesH1,
-  ServicesWrapper,
-  ServicesCard,
-  ServicesIcon,
-  ServicesH2,
-  ServicesP,
 
-} from './DiscoverElements';
+import './discover.css';
 
-import Video from '../../../video/discover.mp4';
+import { Button } from '../../ButtonElements';
 
-import Icon1 from '../../../images/unity-logo.png';
-import Icon2 from '../../../images/constructicon.png';
-import Icon3 from '../../../images/githubicon.svg';
+import{
+  FiGithub,
+  FiTwitter,
+  FiInstagram
+} from 'react-icons/fi';
+
 
 
 
 const Discover = () => {
+  
+
+  
+
   return (
-    <>
-    <HeroContainer >
-        <HeroBg>
-          <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
-        </HeroBg>
+    
+    <div class="box">
+      <div class="container">
+     	  <div class="row">
+         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               
+               <div class="box-part text-center">
+                             
+                             
+                 <div class="title">
+                   <h4>
+                     <FiGithub/>
+                   </h4>
+                   <h4>GITHUB</h4>
+                 </div>
+                             
+               
+                             
+                 <a href="https://github.com/">Learn More</a>
+                             
+               </div>
+     
+               
+     
+         
+               </div>
+			 
+			    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               
+            <div class="box-part text-center">
+                          
+                          
+              <div class="title">
+                <h4>
+                  <FiInstagram/>
+                </h4>
+                {/* icon here */}
+                <h4>INSTAGRAM</h4>
+                {/* social media name here */}
+              </div>
+                          
+                          
+              <a href="https://www.instagram.com/">Learn More</a>
+              {/* user's link here */}
+                          
+            </div>
+				  </div>	 
 
-        <HeroContent>
+				{/* next box */}
+				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               
+					<div class="box-part text-center">
+					    
+                    
+						<div class="title">
+              <h4>
+                <FiTwitter/>
+              </h4>
+							<h4>TWITTER</h4>
+						</div>
+                        
+						
+                        
+						<a href="https://twitter.com/">Learn More</a>
+                        
+					 </div>
+				</div>	
 
-          {/* Resources section */}
-        <ServicesContainer>
-        <TopLine>RESOURCES USED</TopLine>
-        <br/>
-        {/* <ServicesH1>DDeveloper Tools</ServicesH1> */}
 
-            <ServicesWrapper>
+				        
 
-                <ServicesCard>
-                  <ServicesIcon src={Icon3} />
-                  <ServicesH2>GITHUB</ServicesH2>
-                  <ServicesP>
-                    A platform where developers can share and save their codes.
-                  </ServicesP>
-                </ServicesCard>
-
-                <ServicesCard>
-                  <ServicesIcon src={Icon2} />
-                  <ServicesH2>CONSTRUCT</ServicesH2>
-                  <ServicesP>
-                    A game developing website that offers free tutorials and free trials.
-                  </ServicesP>
-                </ServicesCard>
-
-                <ServicesCard>
-                  <ServicesIcon src={Icon1} />
-                  <ServicesH2>UNITY</ServicesH2>
-                  <ServicesP>
-                    A game development platform with tutorials and free assets.
-                  </ServicesP>
-                </ServicesCard>
-              
           
-            </ServicesWrapper>
 
-            
+		
+		      </div>	
 
-    </ServicesContainer>
+          {/* Button that redirects users to ddchat advertising it as a way to message certain users */}
+          <Button Link to ={{ pathname: "https://ddchat.netlify.app"}} target="_blank" aria-label="DDChat">
+                MESSAGE USER
+          </Button>	
+        </div>
+    </div>
 
-    
 
-        
-    
 
-        </HeroContent>
-
-    </HeroContainer>
    
-    </>
+    
   );
 };
 

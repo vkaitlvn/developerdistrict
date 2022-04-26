@@ -1,0 +1,43 @@
+body{
+    background: rgb(0, 0, 0);
+}
+span{
+    font-size:15px;
+}
+a{
+  text-decoration:none; 
+  color: #ffffff;
+  font-style: italic;
+  
+  
+}
+
+
+h4{
+    color: #01bf71;
+    font-size: 20px;
+}
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    background: rgba(116, 115, 115, 0.247);
+    border-radius:0;
+    padding:60px 10px;
+    margin:30px 0px;
+    text-decoration:none; 
+
+}
+.text{
+    margin:20px 0px;
+    text-decoration:none; 
+
+}
+
+.fa{
+     color:#ffffff;
+     text-decoration:none; 
+
+}
+

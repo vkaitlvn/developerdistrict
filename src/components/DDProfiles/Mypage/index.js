@@ -11,13 +11,12 @@ import {
   Heading,
   Subtitle,
   Heading2,
-  Heading3
+  Heading3,
   
 } from './MypageElements';
 
 
 import pic from "../../../images/profilepic.svg";
-import { Button } from '../../ButtonElements';
 
 function HeroSection() {
 
@@ -38,15 +37,12 @@ function HeroSection() {
                             <Heading2 > Game Developer (Title)</Heading2>
                             <Heading3 > Location </Heading3>
 
-
+                            <TopLine> About me </TopLine>
                             <Subtitle>
-                                About me
-                                <br/> 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                                      
+                                This is an example profile that will appear on DeveloperDistrict's website allowing developers to share their portfolios and network.
 
-                                <Button  id='connect'>
-                                Connect
-                                </Button> 
+                                
 
                             </Subtitle>
                             
@@ -57,10 +53,12 @@ function HeroSection() {
                             <img 
                             src={pic} 
                             // alt={alt} 
-                            className="h-75 w-75" style={{objectFit:"cover"}}/>
+                            className="h-100 w-100" style={{objectFit:"cover"}}/>
+                          
                         
 
                         </div>
+
 
 
                         </HeroContent>

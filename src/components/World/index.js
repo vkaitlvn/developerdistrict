@@ -11,6 +11,7 @@ import {
 import pic from "../../images/world.svg";
 import { Button } from '../ButtonElements';
 
+
 const InfoSection = ({ 
     alt,
     

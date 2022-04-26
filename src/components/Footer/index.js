@@ -1,10 +1,6 @@
 import React from 'react'
 import { animateScroll as scroll } from 'react-scroll';
 
-// import { 
-//     FaTwitter,
-    
-// } from 'react-icons/fa';
 
 import {
     BiWorld
@@ -20,8 +16,6 @@ import {
 
 
 
-
-
 import {
     FooterWrap,
     SocialMedia,
@@ -32,6 +26,7 @@ import {
     SocialIconLink,
     
 } from './FooterElements';
+import { Button } from '../ButtonElements4';
 
 const toggleHome = () => {
     scroll.scrollToTop()
@@ -57,17 +52,18 @@ const Footer = () => {
                         <SocialIcons>
                           
 
-                            <SocialIconLink href="//www.twitter.com/" target="_blank" aria-label="World">
+                            <Button to="/worldsim" target="_blank" aria-label="World">
                                 <BiWorld />
-                            </SocialIconLink>
+                            </Button>
 
-                            <SocialIconLink to="/DDchat" href="https://ddchat.netlify.app" target="_blank" aria-label="DDChat">
-                                <BsChatDots />
-                            </SocialIconLink>
+                    
+                            <Button Link to ={{ pathname: "https://ddchat.netlify.app"}} target="_blank" aria-label="DDChat">
+                                <BsChatDots/>
+                            </Button>
 
-                            <SocialIconLink to="/profiles" target="_blank" aria-label="Chat">
+                            <Button to="/profiles" target="_blank" aria-label="Chat">
                                 <    CgProfile />
-                            </SocialIconLink>
+                            </Button>
 
                         </SocialIcons>
                         

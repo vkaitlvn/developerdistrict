@@ -116,6 +116,10 @@ export const TopLine = styled.div`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 22px;
+  }
 `;
 
 export const Heading = styled.h1`
@@ -126,7 +130,7 @@ export const Heading = styled.h1`
   color: #ffffff;
 
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 22px;
   }
 `;
 
@@ -138,7 +142,7 @@ export const Heading2 = styled.h1`
   color: #8b4fc8;
 
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 22px;
   }
 `;
 
@@ -151,7 +155,7 @@ export const Heading3 = styled.h1`
   font-style: italic;
 
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 22px;
   }
 `;
 
@@ -161,4 +165,10 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   color: #fff;
+
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
 `;
+
+
