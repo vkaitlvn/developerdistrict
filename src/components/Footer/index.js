@@ -22,9 +22,8 @@ import {
     SocialMediaWrap,
     SocialLogo,
     WebsiteRights,
-    SocialIcons,
-    SocialIconLink,
-    
+    SocialIcons
+        
 } from './FooterElements';
 import { Button } from '../ButtonElements4';
 
