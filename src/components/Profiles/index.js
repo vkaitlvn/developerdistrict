@@ -30,7 +30,7 @@ const InfoSection = ({
                             <TopLine>Connect</TopLine>
                             <Heading >DD Profiles</Heading>
                             <Subtitle>
-                                Create a profile and connect with other developers with DDProfiles. <br/> Accessible to professionals looking to collaborate and creat or for students looking to intern and learn.
+                                Create a profile and connect with other developers with DDProfiles. <br/> Accessible to professionals looking to collaborate and create or for students looking to intern and learn.
 
                                 <Button to="/profiles">
                                 DDPROFILES
