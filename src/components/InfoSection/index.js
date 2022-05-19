@@ -12,6 +12,7 @@ import pic from "../../images/controller2ppl.svg";
 
 
 
+
 const InfoSection = ({
     alt,
 }) => {
