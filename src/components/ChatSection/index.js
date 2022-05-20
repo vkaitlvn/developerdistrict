@@ -7,10 +7,12 @@ import {
     Subtitle, 
 
 } from './ChatElements'
+// import css file
 
 import pic from "../../images/chat.svg";
 
 import { Button } from '../ButtonElements';
+// import button from button elements where i create css designs for the buttons used on the website, each button in the sections utilize this css design
 
 
 
@@ -31,7 +33,6 @@ const InfoSection = ({
                             <Subtitle>
                                 Socialize with other gamers and developers. DD excels in creating an atmosphere that can be both professional and fun. <br/> Chat, share ideas, and brainstorm with others in DDChat: a safe and enjoyable chat board experience.
                                 
-                                {/* <Button to="/DDchat">DDCHAT</Button> */}
                                 <Button Link to ={{ pathname: "https://ddchat.netlify.app"}} target="_blank" aria-label="DDChat">
                                     DDChat
                                 </Button>
@@ -45,7 +46,7 @@ const InfoSection = ({
                         <div className="col-lg-6 d-flex flex-column px-0 ps-lg-5 mt-5 mt-lg-0">
                             <img 
                             src={pic} 
-                            alt={alt} 
+                            alt={"individuals posting chat messages"} 
                             className="h-100 w-100" style={{objectFit:"cover"}}/>
                         </div>
 

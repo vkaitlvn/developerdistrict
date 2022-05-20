@@ -1,3 +1,6 @@
+// This code is used on the developerdistrict.netlify.app/worldsim page and currently displays a coming soon message with a screenshot from worldsim 
+
+
 import React from 'react';
 
 import {
@@ -6,6 +9,7 @@ import {
     Subtitle
 
 } from './WBElements'
+// This imports all css design from /WBElements
 
 import pic from "../../images/ws.png";
 
@@ -28,7 +32,6 @@ const InfoSection = ({
                             <TopLine>WorldSim</TopLine>
                             <Subtitle>
                                 coming soon...
-
                             </Subtitle>
 
                         </div>
@@ -37,7 +40,9 @@ const InfoSection = ({
                         <div className="col-lg-6 d-flex flex-column px-0 ps-lg-5 mt-5 mt-lg-0">
                             <img 
                             src={pic} 
-                            alt={alt} 
+                            alt={"a screenshot of world sim"} 
+                             // alt tags for accessibility
+
                             className="h-100 w-100" style={{objectFit:"cover"}}/>
                         </div>
 

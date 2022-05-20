@@ -1,3 +1,5 @@
+// sidebar that appears for mobile users of the site
+
 import React from 'react';
 import {
   SidebarContainer,

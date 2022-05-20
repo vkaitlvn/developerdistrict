@@ -1,8 +1,6 @@
+// css file for ddprofiles
+
 import styled from 'styled-components';
-
-
-
-
 
 
 
@@ -71,42 +69,10 @@ export const HeroContent = styled.div`
   align-items: center;
 `;
 
-export const HeroH1 = styled.h1`
-  color: #fff;
-  font-size: 75px;
-  text-align: center;
 
-  @media screen and (max-width: 768px) {
-    font-size: 40px;
-  }
 
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
-  }
-`;
 
-export const HeroP = styled.p`
-  margin-top: 24px;
-  color: #fff;
-  font-size: 25px;
-  text-align: center;
-  max-width: 600px;
-  font-style: italic;
 
-  @media screen and (max-width: 768px) {
-    font-size: 24px;
-  }
-
-  @media screen and (max-width: 480px) {
-    font-size: 18px;
-  }
-`;
-export const HeroBtnWrapper = styled.div`
-  margin-top: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
 
 export const TopLine = styled.div`
   color: #01bf71;

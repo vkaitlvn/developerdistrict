@@ -1,3 +1,6 @@
+// navbar on home page that toggle scrolls to each 
+
+
 import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
@@ -13,6 +16,8 @@ import {
   NavBtn,
   NavBtnLink
 } from './NavbarElements';
+
+// all imports including icons, css files, and effects from react
 
 
 const Navbar = ({ toggle }) => {
@@ -117,6 +122,7 @@ const Navbar = ({ toggle }) => {
 
             <NavBtn>
               <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+              {/* redirects to sign in page */}
             </NavBtn>
             
           </NavbarContainer>

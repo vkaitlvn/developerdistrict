@@ -7,9 +7,12 @@ import {
     Subtitle, 
    
 } from './WorldElements'
+// importing css here
 
 import pic from "../../images/world.svg";
+// import image from images folder
 import { Button } from '../ButtonElements';
+// making a button using my css file
 
 
 const InfoSection = ({ 
@@ -25,7 +28,9 @@ const InfoSection = ({
                         
                         <div className="col-lg-6 mb-4 mt-5 mb-md-0">
                             <img src={pic} 
-                            alt={alt} 
+                            alt={"Players choosing a character"} 
+                             // alt tags for accessibility
+
                             className="h-100 w-100" style={{objectFit:"cover"}}/>
                         </div>
 

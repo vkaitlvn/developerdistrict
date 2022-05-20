@@ -1,3 +1,5 @@
+// info section under the hero banner that shows DD's about section
+
 import React from 'react';
 
 import {
@@ -7,8 +9,10 @@ import {
     Subtitle
 
 } from './InfoElements'
+// css code used for the info section
 
 import pic from "../../images/controller2ppl.svg";
+// import picture from images folder
 
 
 
@@ -38,7 +42,8 @@ const InfoSection = ({
                         <div className="col-lg-6 d-flex flex-column px-0 ps-lg-5 mt-5 mt-lg-0">
                             <img 
                             src={pic} 
-                            alt={alt} 
+                            alt={"two gamers with game controller"} 
+                            // alt tags for accessibility
                             className="h-100 w-100" style={{objectFit:"cover"}}/>
                         </div>
 

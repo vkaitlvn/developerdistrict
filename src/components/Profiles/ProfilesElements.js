@@ -1,3 +1,4 @@
+// css for profiles section
 import styled from 'styled-components';
 
 

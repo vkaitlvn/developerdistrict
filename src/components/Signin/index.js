@@ -14,7 +14,6 @@ import {
 } from './SigninElements';
 
 import Video from '../../video/hero.mp4';
-// import { Button } from '../ButtonElements2';
 
 
 
@@ -22,8 +21,7 @@ import Video from '../../video/hero.mp4';
 import Login from '../GoogleLogin/Login';
 import Logout from '../GoogleLogin/Logout';
 
-// import { Navbar } from 'react-bootstrap';
-// import Navbar from '../Navbar';
+
 
 
 const SignIn = () => {
@@ -41,15 +39,9 @@ const SignIn = () => {
           <FormContent>
             <Form action='#'>
               <FormH1>Sign in to DD</FormH1>
-              {/* <FormLabel htmlFor='for'>Email</FormLabel>
-              <FormInput type='email' required />
-              <FormLabel htmlFor='for'>Password</FormLabel>
-              <FormInput type='password' required />
-              <FormButton type='submit'>Continue</FormButton> */}
+              
 
-              {/* <Text>Forgot password</Text> */}
-
-              {/* <Button to="/Signup">Sign Up</Button> */}
+            
 
               <FormH2>Google Log In</FormH2>
 

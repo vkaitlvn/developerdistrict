@@ -1,3 +1,5 @@
+// Footer code used for entire website
+
 import React from 'react'
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -13,6 +15,7 @@ import {
 import {
     CgProfile
 } from 'react-icons/cg';
+// different icons imported for bottom right corner of navbar
 
 
 
@@ -41,10 +44,12 @@ const Footer = () => {
                         <SocialLogo to='/' onClick={toggleHome}>
                             DeveloperDistrict
                         </SocialLogo>
+                        {/* clickable logo, returns home */}
                         
                         <WebsiteRights>
                             DeveloperDistrict © {new Date().getFullYear()} All rights reserved.
                         </WebsiteRights>
+                        {/* copyright message */}
 
 
 
@@ -65,6 +70,7 @@ const Footer = () => {
                             </Button>
 
                         </SocialIcons>
+                        {/* icon links */}
                         
                     </SocialMediaWrap>
                 </SocialMedia>

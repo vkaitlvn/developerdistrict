@@ -1,6 +1,9 @@
+// This is the discover section shown under the landing banner on the DDprofiles page
+
 import React from 'react';
 
 import './discover.css';
+// css file used in the discover section
 
 import { Button } from '../../ButtonElements';
 
@@ -9,13 +12,12 @@ import{
   FiTwitter,
   FiInstagram
 } from 'react-icons/fi';
+// React icons can be used from a react library and I import them here
 
 
 
 
 const Discover = () => {
-  
-
   
 
   return (

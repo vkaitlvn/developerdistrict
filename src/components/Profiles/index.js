@@ -1,3 +1,4 @@
+// profiles info section featured on the home page
 import React from 'react';
 
 import {
@@ -44,7 +45,8 @@ const InfoSection = ({
                         <div className="col-lg-6 d-flex flex-column px-0 ps-lg-5 mt-5 mt-lg-0">
                             <img 
                             src={pic} 
-                            alt={alt} 
+                            alt={"user looking through profiles"} 
+                            // alt tag for accessibility
                             className="h-100 w-100" style={{objectFit:"cover"}}/>
                         </div>
                         

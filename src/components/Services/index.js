@@ -1,7 +1,11 @@
+// services section from homepage
+
 import React from 'react';
+
 import Icon1 from '../../images/connect.svg';
 import Icon2 from '../../images/experience.svg';
 import Icon3 from '../../images/socialize.svg';
+// pulling images from images folder
 
 import {
   ServicesContainer,

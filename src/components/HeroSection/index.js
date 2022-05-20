@@ -1,30 +1,32 @@
+// main landing homepage banner on developerdistrict
+
 import React, { useState } from 'react';
 
 import Video from '../../video/hero.mp4';
+// video game background from a royalty free site
 
 import {
   HeroContainer,
   HeroBg,
   VideoBg,
   HeroContent,
-  HeroH1,
   HeroP,
-  HeroBtnWrapper
+  HeroH1
   
 } from './HeroElements';
+// css code used and imported
 
 function HeroSection() {
   const [hover, setHover] = useState(false);
 
-  // const onHover = () => {
-  //   setHover(!hover);
-  // };
+  
 
   return (
     <HeroContainer id='home'>
         <HeroBg>
           <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
+        {/* autoplays video background on a loop */}
 
         <HeroContent>
           <HeroH1>DEVELOPER DISTRICT</HeroH1>
@@ -33,22 +35,7 @@ function HeroSection() {
             Your center for all things gaming...
           </HeroP>
 
-          <HeroBtnWrapper>
-            {/* <Button
-              to='signup'
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact='true'
-              offset={-80}
-              primary='true'
-              dark='true'
-              onMouseEnter={onHover}
-              onMouseLeave={onHover}
-            >
-              Get Started {hover ? <ArrowForward /> : <ArrowRight />}
-            </Button> */}
-          </HeroBtnWrapper>
+          
 
         </HeroContent>
 

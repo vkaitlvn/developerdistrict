@@ -1,3 +1,5 @@
+// sidebar for mobile users while on the chat application, worldsim page, or profiles page
+
 import React from 'react';
 import {
   SidebarContainer,

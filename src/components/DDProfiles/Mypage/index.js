@@ -1,6 +1,8 @@
+// This is the code for DDprofiles page
 import React from 'react';
 
 import Video from '../../../video/ddprofiles.mp4';
+// video background from royalty free site
 
 import {
   HeroContainer,
@@ -14,6 +16,7 @@ import {
   Heading3,
   
 } from './MypageElements';
+// importing css design
 
 
 import pic from "../../../images/profilepic.svg";
@@ -52,7 +55,8 @@ function HeroSection() {
                         <div className="col-lg-6 d-flex flex-column px-0 ps-lg-5 mt-5 mt-lg-0">
                             <img 
                             src={pic} 
-                            // alt={alt} 
+                            alt={"Your profile"} 
+                            // alt tag for accessibility
                             className="h-100 w-100" style={{objectFit:"cover"}}/>
                           
                         

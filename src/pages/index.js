@@ -1,3 +1,4 @@
+// page that puts all components together for the landing page, each component is called below and this file allows it all to be put together
 import React, {useState} from 'react';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
@@ -32,6 +33,7 @@ const Home = () => {
             <Profiles />
 
             <Footer/>
+            {/* calls all components that make up the landing page */}
             
             
 

@@ -1,3 +1,5 @@
+// custom navbar for easier navigation on the ddprofiles section with just 3 buttons to home, worldsim, and the chat app
+
 import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
